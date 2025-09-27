@@ -8,7 +8,7 @@ on:
         description: "Integrate YouPiP"
         type: boolean
         required: true
-        default: false
+        default: true
 
       enable_ytuhd:
         description: "Integrate YTUHD"
@@ -32,7 +32,7 @@ on:
         description: "Integrate DontEatMyContent"
         type: boolean
         required: true
-        default: false
+        default: true
 
       ipa_url:
         description: "URL to the decrypted IPA file"
@@ -54,7 +54,7 @@ on:
 
       bundle_id:
         description: "BundleID (Optional)"
-        default: "com.google.ios.youtube"
+        default: "com.skibidi.skibidi.youtube"
         required: true
         type: string
 
